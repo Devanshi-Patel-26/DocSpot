@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.active hr{
+    @apply block; /*here block class will set the display:block which means some 
+    display is set....this makes the <hr/> to work (hr->underline tag)....here <hr/> is block level element
+    so we have set display to block*/
+}
+
+::-webkit-scrollbar {
+    @apply hidden;
+  }
+  

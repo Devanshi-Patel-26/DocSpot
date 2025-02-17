@@ -1,0 +1,13 @@
+  :root {
+    --primary-color: #5f6FFF; /* Define your primary color */
+  }
+  
+  .bg-primary {
+    background-color: var(--primary-color); /* Use the custom primary color */
+  }
+
+  .grid-cols-auto {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  
